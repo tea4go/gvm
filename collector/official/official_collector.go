@@ -27,9 +27,9 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/voidint/g/pkg/errs"
-	httppkg "github.com/voidint/g/pkg/http"
-	"github.com/voidint/g/version"
+	"github.com/tea4go/gvm/pkg/errs"
+	httppkg "github.com/tea4go/gvm/pkg/http"
+	"github.com/tea4go/gvm/version"
 )
 
 const (

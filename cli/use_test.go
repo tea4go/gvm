@@ -33,27 +33,27 @@ func TestGetGoDirective(t *testing.T) {
 	}{
 		{
 			name:     "normal go directive",
-			input:    []byte("module github.com/voidint/g\n\ngo 1.20\n"),
+			input:    []byte("module github.com/tea4go/gvm\n\ngo 1.20\n"),
 			expected: "1.20",
 		},
 		{
 			name:     "normal go directive",
-			input:    []byte("module github.com/voidint/g\n\ngo 1.24.0\n"),
+			input:    []byte("module github.com/tea4go/gvm\n\ngo 1.24.0\n"),
 			expected: "1.24.0",
 		},
 		{
 			name:     "normal go directive",
-			input:    []byte("module github.com/voidint/g\n\ngo 1.24.4\n"),
+			input:    []byte("module github.com/tea4go/gvm\n\ngo 1.24.4\n"),
 			expected: "1.24.4",
 		},
 		{
 			name:     "normal go directive",
-			input:    []byte("module github.com/voidint/g\n\ngo 1.25rc1\n"),
+			input:    []byte("module github.com/tea4go/gvm\n\ngo 1.25rc1\n"),
 			expected: "1.25rc1",
 		},
 		{
 			name:     "no go directive",
-			input:    []byte("module github.com/voidint/g\n"),
+			input:    []byte("module github.com/tea4go/gvm\n"),
 			expected: "",
 		},
 		{

@@ -33,9 +33,9 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	"github.com/agiledragon/gomonkey/v2"
 	"github.com/stretchr/testify/assert"
-	"github.com/voidint/g/pkg/checksum"
-	"github.com/voidint/g/pkg/errs"
-	"github.com/voidint/g/version"
+	"github.com/tea4go/gvm/pkg/checksum"
+	"github.com/tea4go/gvm/pkg/errs"
+	"github.com/tea4go/gvm/version"
 )
 
 const OfficialDownloadPageURL = "https://go.dev/dl/"

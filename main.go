@@ -20,7 +20,7 @@
 package main
 
 import (
-	"github.com/voidint/g/cli"
+	"github.com/tea4go/gvm/cli"
 )
 
 func main() {

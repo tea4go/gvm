@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/fatih/color"
+	"github.com/tea4go/gvm/build"
+	"github.com/tea4go/gvm/version"
 	"github.com/urfave/cli/v2"
-	"github.com/voidint/g/build"
-	"github.com/voidint/g/version"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

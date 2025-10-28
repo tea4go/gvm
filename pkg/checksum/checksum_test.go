@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/voidint/g/pkg/errs"
+	"github.com/tea4go/gvm/pkg/errs"
 )
 
 func TestVerifyFile(t *testing.T) {

@@ -25,9 +25,9 @@ import (
 
 	"github.com/Masterminds/semver/v3"
 	"github.com/k0kubun/go-ansi"
+	"github.com/tea4go/gvm/collector"
+	"github.com/tea4go/gvm/version"
 	"github.com/urfave/cli/v2"
-	"github.com/voidint/g/collector"
-	"github.com/voidint/g/version"
 )
 
 const (

@@ -27,7 +27,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/voidint/g/pkg/errs"
+	"github.com/tea4go/gvm/pkg/errs"
 )
 
 // Algorithm checksum algorithm type

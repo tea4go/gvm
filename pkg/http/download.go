@@ -29,8 +29,8 @@ import (
 
 	"github.com/k0kubun/go-ansi"
 	"github.com/schollz/progressbar/v3"
-	"github.com/voidint/g/build"
-	"github.com/voidint/g/pkg/errs"
+	"github.com/tea4go/gvm/build"
+	"github.com/tea4go/gvm/pkg/errs"
 )
 
 // Download saves the remote resource to local file with progress support.

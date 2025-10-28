@@ -32,9 +32,9 @@ import (
 	"github.com/dixonwille/wmenu/v5"
 	"github.com/mholt/archiver/v3"
 	"github.com/pkg/errors"
+	"github.com/tea4go/gvm/collector"
+	"github.com/tea4go/gvm/version"
 	"github.com/urfave/cli/v2"
-	"github.com/voidint/g/collector"
-	"github.com/voidint/g/version"
 )
 
 func install(ctx *cli.Context) (err error) {

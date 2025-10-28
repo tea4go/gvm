@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/voidint/g/pkg/errs"
-	"github.com/voidint/g/version"
+	"github.com/tea4go/gvm/pkg/errs"
+	"github.com/tea4go/gvm/version"
 )
 
 func Test_getGoVersion(t *testing.T) {

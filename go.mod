@@ -1,4 +1,4 @@
-module github.com/voidint/g
+module github.com/tea4go/gvm
 
 go 1.20
 

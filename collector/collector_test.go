@@ -27,10 +27,10 @@ import (
 
 	"github.com/agiledragon/gomonkey/v2"
 	"github.com/stretchr/testify/assert"
-	"github.com/voidint/g/collector/autoindex"
-	"github.com/voidint/g/collector/fancyindex"
-	"github.com/voidint/g/collector/official"
-	"github.com/voidint/g/pkg/errs"
+	"github.com/tea4go/gvm/collector/autoindex"
+	"github.com/tea4go/gvm/collector/fancyindex"
+	"github.com/tea4go/gvm/collector/official"
+	"github.com/tea4go/gvm/pkg/errs"
 )
 
 func TestNewCollector(t *testing.T) {

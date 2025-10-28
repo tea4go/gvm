@@ -24,7 +24,7 @@ import (
 	"sort"
 
 	"github.com/Masterminds/semver/v3"
-	"github.com/voidint/g/pkg/errs"
+	"github.com/tea4go/gvm/pkg/errs"
 )
 
 // Finder implements version lookup for Go language distributions.

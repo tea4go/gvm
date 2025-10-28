@@ -25,8 +25,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/voidint/g/pkg/checksum"
-	"github.com/voidint/g/version"
+	"github.com/tea4go/gvm/pkg/checksum"
+	"github.com/tea4go/gvm/version"
 )
 
 type GoFileItem struct {

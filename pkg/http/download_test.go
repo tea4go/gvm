@@ -31,7 +31,7 @@ import (
 
 	"github.com/agiledragon/gomonkey/v2"
 	"github.com/stretchr/testify/assert"
-	"github.com/voidint/g/pkg/errs"
+	"github.com/tea4go/gvm/pkg/errs"
 )
 
 func TestIsSuccess(t *testing.T) {
@@ -88,7 +88,7 @@ func TestIsSuccess(t *testing.T) {
 
 func TestDownload(t *testing.T) {
 	e := errors.New("unknown error")
-	url := "http://github.com/voidint/g"
+	url := "http://github.com/tea4go/gvm"
 	filename := fmt.Sprintf("%d.txt", time.Now().Unix())
 	defer os.Remove(filename)
 
@@ -167,7 +167,7 @@ func TestDownload(t *testing.T) {
 
 func TestDownloadAsBytes(t *testing.T) {
 	e := errors.New("unknown error")
-	url := "http://github.com/voidint/g"
+	url := "http://github.com/tea4go/gvm"
 
 	rr := httptest.NewRecorder()
 	rr.WriteHeader(http.StatusOK)

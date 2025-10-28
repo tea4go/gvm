@@ -22,11 +22,11 @@ package collector
 import (
 	"strings"
 
-	"github.com/voidint/g/collector/autoindex"
-	"github.com/voidint/g/collector/fancyindex"
-	"github.com/voidint/g/collector/official"
-	"github.com/voidint/g/pkg/errs"
-	"github.com/voidint/g/version"
+	"github.com/tea4go/gvm/collector/autoindex"
+	"github.com/tea4go/gvm/collector/fancyindex"
+	"github.com/tea4go/gvm/collector/official"
+	"github.com/tea4go/gvm/pkg/errs"
+	"github.com/tea4go/gvm/version"
 )
 
 // official collector

@@ -30,8 +30,8 @@ import (
 	"github.com/ThinkInAIXYZ/go-mcp/server"
 	"github.com/ThinkInAIXYZ/go-mcp/transport"
 	"github.com/pkg/errors"
+	"github.com/tea4go/gvm/build"
 	"github.com/urfave/cli/v2"
-	"github.com/voidint/g/build"
 )
 
 func runMcpServer(_ *cli.Context) (err error) {

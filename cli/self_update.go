@@ -27,12 +27,12 @@ import (
 	"strings"
 
 	"github.com/Masterminds/semver/v3"
+	"github.com/tea4go/gvm/build"
+	"github.com/tea4go/gvm/pkg/checksum"
+	"github.com/tea4go/gvm/pkg/errs"
+	httppkg "github.com/tea4go/gvm/pkg/http"
+	"github.com/tea4go/gvm/pkg/sdk/github"
 	"github.com/urfave/cli/v2"
-	"github.com/voidint/g/build"
-	"github.com/voidint/g/pkg/checksum"
-	"github.com/voidint/g/pkg/errs"
-	httppkg "github.com/voidint/g/pkg/http"
-	"github.com/voidint/g/pkg/sdk/github"
 )
 
 func selfUpdate(*cli.Context) (err error) {

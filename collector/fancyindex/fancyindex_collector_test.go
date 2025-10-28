@@ -31,9 +31,9 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	"github.com/agiledragon/gomonkey/v2"
 	"github.com/stretchr/testify/assert"
-	"github.com/voidint/g/collector/internal"
-	"github.com/voidint/g/pkg/errs"
-	"github.com/voidint/g/version"
+	"github.com/tea4go/gvm/collector/internal"
+	"github.com/tea4go/gvm/pkg/errs"
+	"github.com/tea4go/gvm/version"
 )
 
 const AliYunDownloadPageURL = "https://mirrors.aliyun.com/golang/"

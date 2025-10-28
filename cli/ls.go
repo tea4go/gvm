@@ -26,8 +26,8 @@ import (
 
 	"github.com/k0kubun/go-ansi"
 	"github.com/pkg/errors"
+	"github.com/tea4go/gvm/version"
 	"github.com/urfave/cli/v2"
-	"github.com/voidint/g/version"
 )
 
 func list(ctx *cli.Context) (err error) {

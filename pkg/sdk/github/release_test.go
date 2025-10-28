@@ -30,7 +30,7 @@ import (
 	"github.com/Masterminds/semver/v3"
 	"github.com/agiledragon/gomonkey/v2"
 	"github.com/stretchr/testify/assert"
-	"github.com/voidint/g/pkg/errs"
+	"github.com/tea4go/gvm/pkg/errs"
 )
 
 func TestAsset_IsCompressedFile(t *testing.T) {
